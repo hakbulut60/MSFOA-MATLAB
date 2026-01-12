@@ -28,4 +28,4 @@ nD = 30;
 lb = -100;
 ub = 100;
 
-[xbest, fbest, curve] = SFOA_v4(Npop, Max_it, lb, ub, nD, @sphere);
+[xbest, fbest, curve] = MSFOA(Npop, Max_it, lb, ub, nD, @sphere);
